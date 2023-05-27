@@ -1,0 +1,272 @@
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\appsettings.Development.json
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\appsettings.json
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.exe
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.deps.json
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.runtimeconfig.json
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.pdb
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Azure.Core.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Azure.Identity.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Humanizer.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.CodeDom.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Memory.Data.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Text.Json.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.AssemblyReference.cache
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.AssemblyInfoInputs.cache
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.AssemblyInfo.cs
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.CoreCompileInputs.cache
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.MvcApplicationPartsAssemblyInfo.cs
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.MvcApplicationPartsAssemblyInfo.cache
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.LoginSampleBackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.build.LoginSampleBackEnd.props
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LoginSampleBackEnd.props
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LoginSampleBackEnd.props
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.pack.json
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.build.json
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.development.json
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\scopedcss\bundle\LoginSampleBackEnd.styles.css
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.CopyComplete
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\refint\LoginSampleBackEnd.dll
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.pdb
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.genruntimeconfig.cache
+D:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\ref\LoginSampleBackEnd.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.AssemblyInfoInputs.cache
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.AssemblyInfo.cs
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.CoreCompileInputs.cache
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.MvcApplicationPartsAssemblyInfo.cs
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.MvcApplicationPartsAssemblyInfo.cache
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.AssemblyReference.cache
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\appsettings.Development.json
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\appsettings.json
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.exe
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.deps.json
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.runtimeconfig.json
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.pdb
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Azure.Core.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Azure.Identity.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Humanizer.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.CodeDom.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Memory.Data.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Text.Json.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.LoginSampleBackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.build.LoginSampleBackEnd.props
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LoginSampleBackEnd.props
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LoginSampleBackEnd.props
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.pack.json
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.build.json
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.development.json
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\scopedcss\bundle\LoginSampleBackEnd.styles.css
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.CopyComplete
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\refint\LoginSampleBackEnd.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.pdb
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.genruntimeconfig.cache
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\ref\LoginSampleBackEnd.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\MailKit.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\MimeKit.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\NETCore.MailKit.dll
+E:\LoginSampleCrud\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\appsettings.json
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.exe
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.deps.json
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.runtimeconfig.json
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\LoginSampleBackEnd.pdb
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\MailKit.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\NETCore.MailKit.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.AssemblyReference.cache
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.AssemblyInfoInputs.cache
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.AssemblyInfo.cs
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.LoginSampleBackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.build.LoginSampleBackEnd.props
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LoginSampleBackEnd.props
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LoginSampleBackEnd.props
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\scopedcss\bundle\LoginSampleBackEnd.styles.css
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.csproj.CopyComplete
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\refint\LoginSampleBackEnd.dll
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.pdb
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\LoginSampleBackEnd.genruntimeconfig.cache
+C:\Users\Rubix4\Desktop\New folder (4)\LoginSampleBackEnd\LoginSampleBackEnd\obj\Debug\net6.0\ref\LoginSampleBackEnd.dll

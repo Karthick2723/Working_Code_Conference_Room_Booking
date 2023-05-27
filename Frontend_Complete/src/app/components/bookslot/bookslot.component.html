@@ -1,0 +1,158 @@
+<app-navheader></app-navheader>
+<div class="container">
+    <div class="col sm-3">
+        <div class="card">
+            <div class="row">
+                <div class="col lg-6">
+                    <img src="../../../assets/confirmed.png" class="meetimage">
+                </div>
+                <div class="col lg-6">
+                    <form [formGroup]="bookSlotForm">
+                        <div class="p-3">
+                            <div class="row g-0 ">
+                                <div class="col text-center p-2 mb-3 fw-bold "
+                                    style="background-color: #9e5aa3; border-radius:5px ;">
+                                    <span class="fs-3" style="color:whitesmoke;">Book Slot</span>
+                                </div>
+                            </div>
+                            <div class="form-group pt-3">
+                                <label for="employeename" class="form-label">Employee Id:</label>
+                                <div class="input-field"
+                                    [class.error]="bookSlotForm.controls['employeeId'].dirty && bookSlotForm.hasError('required','employeeId')">
+                                    <input formControlName="employeeId" type="text" placeholder="Employee Id">
+                                </div>
+                            </div>
+                            <small
+                                *ngIf="bookSlotForm.controls['employeeId'].dirty && bookSlotForm.hasError('required','employeeId')"
+                                class="text-danger">*Employee Id is required*</small>
+                            <div class="form-group pt-3">
+                                <label for="employeeName" class="form-label">Employee Name:</label>
+                                <div class="input-field"
+                                    [class.error]="bookSlotForm.controls['employeeName'].dirty && bookSlotForm.hasError('required','employeeName')">
+                                    <input formControlName="employeeName" type="text" placeholder="Employee Name">
+                                </div>
+                            </div>
+                            <small
+                                *ngIf="bookSlotForm.controls['employeeName'].dirty && bookSlotForm.hasError('required','employeeName')"
+                                class="text-danger">*Employee Name is required*</small>
+                            <div class="form-group pt-3">
+                                <label for="department" class="form-label">Department:</label>
+                                <select class="form-select" aria-label="Default select example" >
+                                    <option value="" disabled selected>--Select--</option>
+                                    <option value="1">Glamz</option>
+                                    <option value="2">Halliburton</option>
+                                    <option value="3">Servicenow</option>
+                                    <option value="4">Ezhour</option>
+                                    <option value="5">HR</option>
+                                    <option value="6">Project Manager</option>
+                                    <option value="7">Finance</option>
+                                </select>
+                            </div>
+                            <!-- <small
+                                *ngIf="bookSlotForm.controls['department'].dirty && bookSlotForm.hasError('required','department')"
+                                class="text-danger">*Department is required*</small> -->
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <div class="form-group pt-3">
+                                        <label for="floor" class="form-label">Floor:</label>
+                                        <select class="form-select" aria-label="Default select example"
+                                            (change)="onSelect($event)">
+                                            <option value="" disabled selected>--Select--</option>
+                                            <option *ngFor="let floors of floor" value={{floors.id}}>{{floors.name}}
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- <small
+                                *ngIf="bookSlotForm.controls['floor'].dirty && bookSlotForm.hasError('required','floor')"
+                                class="text-danger">*Floor is required*</small> -->
+                                <div class="col mb-3">
+                                    <div class="form-group pt-3">
+                                        <label for="room" class="form-label">Room No:</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option value="" disabled selected>--Select--</option>
+                                            <option *ngFor="let rooms of room" value={{rooms.id}}>{{rooms.name}}
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- <small
+                                *ngIf="bookSlotForm.controls['room'].dirty && bookSlotForm.hasError('required','room')"
+                                class="text-danger">*Room No is required*</small> -->
+                            </div>
+                            <div class="form-group ">
+                                <label for="seatno" class="form-label">Seats No:</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="" disabled selected>--Select--</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                </select>
+                            </div>
+                            <!-- <small
+                                *ngIf="bookSlotForm.controls['seatno'].dirty && bookSlotForm.hasError('required','seatno')"
+                                class="text-danger">*Seat No is required*</small> -->
+                            <div class="form-group pt-3">
+                                <label for="date" class="form-label">Date:</label>
+                                <input type="date" class="form-control" id="date">
+                            </div>
+                            <!-- <small
+                                *ngIf="bookSlotForm.controls['date'].dirty && bookSlotForm.hasError('required','date')"
+                                class="text-danger">*Date is required*</small> -->
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <div class="form-group pt-3">
+                                        <label for="fromTime" class="form-label">Check-In:</label>
+                                        <input type="time" class="form-control">
+                                    </div>
+                                </div>
+                                <!-- <small
+                                *ngIf="bookSlotForm.controls['fromTime'].dirty && bookSlotForm.hasError('required','fromTime')"
+                                class="text-danger">*From Time is required*</small> -->
+                                <div class="col mb-3">
+                                    <div class="form-group pt-3">
+                                        <label for="toTime" class="form-label">Check-Out:</label>
+                                        <input type="time" class="form-control" style="width:100%">
+                                    </div>
+                                </div>
+                                <!-- <small
+                                *ngIf="bookSlotForm.controls['toTime'].dirty && bookSlotForm.hasError('required','toTime')"
+                                class="text-danger">*From Time is required*</small> -->
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-6 ">
+                                        <div class="d-grid">
+                                            <div class="button-box">
+                                                <button type="submit" (click)="slotRegister()" class="confirm">Confirm
+                                                    Slot</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,28 @@
+.img1 {
+    width: 600px;
+    height: 411px;
+    border-radius: 0%;
+    margin-top:10px ;
+
+}
+
+.img2{
+    font-size: 18px;
+    margin-top: -15px;
+    width: 500px;
+    height: 500px;
+    border-radius: 0%;
+    margin-left: 710px;   
+     
+}
+
+.para-img{
+    font-size: 18px;
+    display: flex;
+    float: left;  
+    width: 650px;
+    height: 500px;  
+    margin-bottom:-475px ;
+}
+
+

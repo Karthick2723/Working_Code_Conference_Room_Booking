@@ -1,0 +1,26 @@
+.logo{
+    display: flex;
+    width: 70px;
+    background-color: rgb(231, 239, 247);
+    border-radius: -90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 60px;
+}
+.conf-book{
+    margin-right: 22rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* margin-top: px; */
+}
+
+button{
+   margin-right: 15px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+
+header{
+    background:#9e5aa3;
+    height: 100px;
+}
