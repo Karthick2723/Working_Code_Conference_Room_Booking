@@ -16,6 +16,8 @@ import { BookslotComponent } from './components/bookslot/bookslot.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HelpComponent } from './components/help/help.component';
 import { NavheaderComponent } from './components/navheader/navheader.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,7 @@ import { NavheaderComponent } from './components/navheader/navheader.component';
     BookslotComponent,
     FooterComponent,
     HelpComponent,
-    NavheaderComponent
+    NavheaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,9 @@ import { NavheaderComponent } from './components/navheader/navheader.component';
     ReactiveFormsModule,
     HttpClientModule,
     NgToastModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatDialogModule
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,

@@ -8,10 +8,11 @@
     height: 60px;
 }
 .conf-book{
-    margin-right: 22rem;
+    margin-right: 25rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     /* margin-top: px; */
+    /* font-size: 40px; */
 }
 
 button{
