@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rubix4\\Desktop\\Working_Code\\BackEnd_Complete_API\\LoginSampleBackEnd\\LoginSampleBackEnd.csproj": {}
+    "C:\\Users\\Rubix4\\Videos\\BackEnd_Complete_API\\LoginSampleBackEnd\\LoginSampleBackEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rubix4\\Desktop\\Working_Code\\BackEnd_Complete_API\\LoginSampleBackEnd\\LoginSampleBackEnd.csproj": {
+    "C:\\Users\\Rubix4\\Videos\\BackEnd_Complete_API\\LoginSampleBackEnd\\LoginSampleBackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rubix4\\Desktop\\Working_Code\\BackEnd_Complete_API\\LoginSampleBackEnd\\LoginSampleBackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\Rubix4\\Videos\\BackEnd_Complete_API\\LoginSampleBackEnd\\LoginSampleBackEnd.csproj",
         "projectName": "LoginSampleBackEnd",
-        "projectPath": "C:\\Users\\Rubix4\\Desktop\\Working_Code\\BackEnd_Complete_API\\LoginSampleBackEnd\\LoginSampleBackEnd.csproj",
+        "projectPath": "C:\\Users\\Rubix4\\Videos\\BackEnd_Complete_API\\LoginSampleBackEnd\\LoginSampleBackEnd.csproj",
         "packagesPath": "C:\\Users\\Rubix4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rubix4\\Desktop\\Working_Code\\BackEnd_Complete_API\\LoginSampleBackEnd\\obj\\",
+        "outputPath": "C:\\Users\\Rubix4\\Videos\\BackEnd_Complete_API\\LoginSampleBackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

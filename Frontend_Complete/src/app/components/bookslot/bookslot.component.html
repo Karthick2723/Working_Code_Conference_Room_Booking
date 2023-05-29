@@ -15,27 +15,89 @@
                                     <span class="fs-3" style="color:whitesmoke;">Book Slot</span>
                                 </div>
                             </div>
+                            <!-- <div class="form-group pt-3">
+                                <label for="refId" class="form-label">Reference Id:</label>
+                                <div class="input-field">
+                                    <input formControlName="refId" type="text" placeholder="Reference Id">
+                                </div>
+                            </div> -->
                             <div class="form-group pt-3">
-                                <label for="employeename" class="form-label">Employee Id:</label>
-                                <div class="input-field"
-                                    [class.error]="bookSlotForm.controls['employeeId'].dirty && bookSlotForm.hasError('required','employeeId')">
+                                <label for="employeeId" class="form-label">Employee Id:</label>
+                                <div class="input-field">
                                     <input formControlName="employeeId" type="text" placeholder="Employee Id">
                                 </div>
                             </div>
-                            <small
-                                *ngIf="bookSlotForm.controls['employeeId'].dirty && bookSlotForm.hasError('required','employeeId')"
-                                class="text-danger">*Employee Id is required*</small>
+
                             <div class="form-group pt-3">
                                 <label for="employeeName" class="form-label">Employee Name:</label>
-                                <div class="input-field"
-                                    [class.error]="bookSlotForm.controls['employeeName'].dirty && bookSlotForm.hasError('required','employeeName')">
+                                <div class="input-field">
                                     <input formControlName="employeeName" type="text" placeholder="Employee Name">
                                 </div>
                             </div>
-                            <small
-                                *ngIf="bookSlotForm.controls['employeeName'].dirty && bookSlotForm.hasError('required','employeeName')"
-                                class="text-danger">*Employee Name is required*</small>
+                            <!-- <div class="form-group pt-3">
+                                <label for="department" class="form-label">Department:</label>
+                                <div class="input-field">
+                                    <input formControlName="department" type="text" placeholder="Department">
+                                </div>
+                            </div> -->
+
                             <div class="form-group pt-3">
+                                <label for="department"  class="form-label">Department:</label>
+                                <select class="form-select" formControlName="department" >
+                                    <option value="" disabled selected>--Select--</option>
+                                    <option *ngFor="let dep of departments">{{dep}}</option>  
+                                </select>
+                            </div>
+
+
+                            
+                            <div class="form-group pt-3">
+                                <label for="floor" class="form-label">Floor:</label>
+                                <select class="form-select" formControlName="floor" >
+                                    <option value="" disabled selected>--Select--</option>
+                                    <option *ngFor="let floor of floors">{{floor}}</option> 
+                                        </select>
+                            </div>
+                            
+                            <div class="form-group pt-3">
+                                <label for="roomNo" class="form-label">Room No:</label>
+                                <select class="form-select" formControlName="roomNo" >
+                                    <option value="" disabled selected>--Select--</option>
+                                    <option *ngFor="let rooms of roomNumber">{{rooms}}</option> 
+                                        </select>
+                            </div>
+
+
+                            <div class="form-group pt-3">
+                                <label for="seatNo"  class="form-label">Needed Seat:</label>
+                                <select class="form-select" formControlName="seatNo" >
+                                    <option value="" disabled selected>--Select--</option>
+                                    <option *ngFor="let seat of seatNumber">{{seat}}</option>  
+                                </select>
+                            </div>
+                            <div class="form-group pt-3">
+                                <label for="date" class="form-label">Date:</label>
+                                <input type="datetime-local" name="input" ng-model="value"
+                                placeholder="yyyy-MM-ddTHH:mm:ss" min="2010-01-01T00:00:00" max="2025-12-31T00:00:00" required />                        
+                                    </div>
+
+                            <div class="form-group pt-3">
+                                <label for="fromTime" class="form-label">fromTime</label>
+                                <div class="input-field">
+                                    <input formControlName="fromTime" type="text" placeholder="fromTime">
+                                </div>
+                            </div>
+
+                            <div class="form-group pt-3">
+                                <label for="toTime" class="form-label">toTime</label>
+                                <div class="input-field">
+                                    <input formControlName="toTime" type="text" placeholder="toTime">
+                                </div>
+                            </div>
+
+
+                            
+                            <!-- <div class="form-group pt-3">
                                 <label for="department" class="form-label">Department:</label>
                                 <select class="form-select" aria-label="Default select example" >
                                     <option value="" disabled selected>--Select--</option>
@@ -48,9 +110,7 @@
                                     <option value="7">Finance</option>
                                 </select>
                             </div>
-                            <!-- <small
-                                *ngIf="bookSlotForm.controls['department'].dirty && bookSlotForm.hasError('required','department')"
-                                class="text-danger">*Department is required*</small> -->
+                            
                             <div class="row">
                                 <div class="col mb-3">
                                     <div class="form-group pt-3">
@@ -63,12 +123,10 @@
                                         </select>
                                     </div>
                                 </div>
-                                <!-- <small
-                                *ngIf="bookSlotForm.controls['floor'].dirty && bookSlotForm.hasError('required','floor')"
-                                class="text-danger">*Floor is required*</small> -->
+                                
                                 <div class="col mb-3">
                                     <div class="form-group pt-3">
-                                        <label for="room" class="form-label">Room No:</label>
+                                        <label for="roomNo" class="form-label">Room No:</label>
                                         <select class="form-select" aria-label="Default select example">
                                             <option value="" disabled selected>--Select--</option>
                                             <option *ngFor="let rooms of room" value={{rooms.id}}>{{rooms.name}}
@@ -76,9 +134,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <!-- <small
-                                *ngIf="bookSlotForm.controls['room'].dirty && bookSlotForm.hasError('required','room')"
-                                class="text-danger">*Room No is required*</small> -->
+                                
                             </div>
                             <div class="form-group ">
                                 <label for="seatno" class="form-label">Seats No:</label>
@@ -106,16 +162,12 @@
                                     <option value="20">20</option>
                                 </select>
                             </div>
-                            <!-- <small
-                                *ngIf="bookSlotForm.controls['seatno'].dirty && bookSlotForm.hasError('required','seatno')"
-                                class="text-danger">*Seat No is required*</small> -->
+                            
                             <div class="form-group pt-3">
                                 <label for="date" class="form-label">Date:</label>
                                 <input type="date" class="form-control" id="date">
                             </div>
-                            <!-- <small
-                                *ngIf="bookSlotForm.controls['date'].dirty && bookSlotForm.hasError('required','date')"
-                                class="text-danger">*Date is required*</small> -->
+                            
                             <div class="row">
                                 <div class="col mb-3">
                                     <div class="form-group pt-3">
@@ -123,19 +175,15 @@
                                         <input type="time" class="form-control">
                                     </div>
                                 </div>
-                                <!-- <small
-                                *ngIf="bookSlotForm.controls['fromTime'].dirty && bookSlotForm.hasError('required','fromTime')"
-                                class="text-danger">*From Time is required*</small> -->
+                                
                                 <div class="col mb-3">
                                     <div class="form-group pt-3">
                                         <label for="toTime" class="form-label">Check-Out:</label>
                                         <input type="time" class="form-control" style="width:100%">
                                     </div>
                                 </div>
-                                <!-- <small
-                                *ngIf="bookSlotForm.controls['toTime'].dirty && bookSlotForm.hasError('required','toTime')"
-                                class="text-danger">*From Time is required*</small> -->
-                            </div>
+                                
+                            </div> -->
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-6 ">

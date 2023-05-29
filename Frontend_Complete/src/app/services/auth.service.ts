@@ -22,10 +22,6 @@ export class AuthService {
     return this.http.post<any>(`${this.baseUrl}authenticate`, loginObj)
   }
 
-  confRegister(registerObj:any){
-    return this.http.post<any>(`${this.baseUrl}roomRegister`,registerObj)
-  }
-
   signOut(){
     localStorage.clear();
     this.router.navigate(['login'])

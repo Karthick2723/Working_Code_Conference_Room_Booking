@@ -17,51 +17,54 @@ import {  MAT_DIALOG_DATA } from '@angular/material/dialog';
   styleUrls: ['./bookslot.component.css']
 })
 export class BookslotComponent implements OnInit {
-  registerObj: BookSlotRegister = {
-    id: 0,
-    employeeId: '',
-    employeeName: '',
-    department: '',
-    seats: 0,
-    floor: '',
-    roomNumber: '',
-    dateTime: new Date(),
-    startTime: '',
-    endTime: ''
-  };
+departments:any=['Glamz','Haliburton','Servicenow','Ezhour','HR','Project Manager','Finance'];
+seatNumber:any=['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'];
+floors:any=['1st','2nd','3rd'];
+roomNumber:any=['Room-1','Room-2','Room-3','Room-4']
+  bookSlotForm:FormGroup=this.formbuilder.group({});
   floor: any = [];
   room: any = [];
   val: any = [];
-  bookSlotForm!: FormGroup;
-
+  // bookSlotForm!: FormGroup;
 
   constructor(private Selectservice: SelectService,
-    private fb: FormBuilder,
+    private formbuilder: FormBuilder,
     private auth: AuthService,
     private router: Router,
     private bookSlotService: BookSlotService,
     private toast: NgToastService,
-    @Optional() @Inject(MAT_DIALOG_DATA) public data: any ) { }
+    @Optional() @Inject(MAT_DIALOG_DATA) public data: {type:any,value:any} ) { }
 
 
   ngOnInit(): void {
+    console.log(this.data);
+    this.initFormBuilder();
 
     this.floor = this.Selectservice.getFloor();
     console.log(this.floor);
-    this.bookSlotForm = this.fb.group({
+    
+    // if(this.data.type=="Edit"){
+    //   this.bookSlotForm.patchValue(this.data.value);
+    // }
+
+  }
+
+
+  initFormBuilder(){
+    this.bookSlotForm = this.formbuilder.group({
+      // refId:[''],
       employeeId: ['', Validators.required],
       employeeName: ['', Validators.required],
       department: ['', Validators.required],
       floor: ['', Validators.required],
-      room: ['', Validators.required],
-      seatno: ['', Validators.required],
-      date: ['', Validators.required],
+      roomNo: ['', Validators.required],
+      seatNo: ['', Validators.required],
+      date: [new Date(), Validators.required],
       fromTime: ['', Validators.required],
       toTime: ['', Validators.required],
-    })
-
+    });
+    
   }
-
   onSelect(floor: any) {
     this.room = this.Selectservice.getRoom().filter(e => e.id == floor.target.value);
   }
@@ -88,36 +91,32 @@ export class BookslotComponent implements OnInit {
   // }
 
   slotRegister() {
-    if (this.bookSlotForm.valid) {
-    console.log("submited")
-    if (this.data.type == "Add") {
-      let data = {
-        employeeId: this.bookSlotForm.controls['employeeId'].value,
-        employeeName: this.bookSlotForm.controls['employeeName'].value,
-        department: this.bookSlotForm.controls['department'].value,
-        seats: this.bookSlotForm.controls['seats'].value,
-        floor: this.bookSlotForm.controls['floor'].value,
-        roomNumber: this.bookSlotForm.controls['roomNumber'].value,
-        dateTime: this.bookSlotForm.controls['dateTime'].value,
-        startTime: this.bookSlotForm.controls['startTime'].value,
-        endTime: this.bookSlotForm.controls['endTime'].value
-      }
-      this.bookSlotService.CreateBookSlotRegister(data)
+    console.log(this.data)
+
+
+      this.bookSlotService.addBook(this.bookSlotForm.value)
         .subscribe(response => {
           console.log(response);
         },
           (err) => {
             console.log(err);
-          })
-    } 
-  }else {
-    ValidateForm.validateAllFormFields(this.bookSlotForm)
-      this.bookSlotService.updateBook(this.bookSlotForm.value)
-        .subscribe(response => {
-          console.log(response);
-        }, (err) => {
-          console.log(err);
-        })
-    }
-  }
+          }) 
+          console.log(this.bookSlotForm.value);
+          this.toast.success({ detail: "SUCCESS", summary: "Registered Successfully", duration: 5000 });
+          this.bookSlotForm.reset();
+
+        }
+        
+
+  // }else {
+  //     this.bookSlotService.updateBook(this.bookSlotForm.value)
+  //       .subscribe(response => {
+  //         console.log(response);
+  //       }, (err) => {
+  //         console.log(err);
+  //       })
+  //   }
+    
+  // }
+
 }

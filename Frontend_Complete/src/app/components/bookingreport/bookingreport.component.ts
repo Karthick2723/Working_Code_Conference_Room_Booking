@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatDialog,MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { BookSlotService } from 'src/app/services/book-slot.service';
 import { BookslotComponent } from '../bookslot/bookslot.component';
 
@@ -8,51 +8,51 @@ import { BookslotComponent } from '../bookslot/bookslot.component';
   templateUrl: './bookingreport.component.html',
   styleUrls: ['./bookingreport.component.css']
 })
-export class BookingreportComponent implements OnInit{
-  book:string="";
-  constructor(private bookService:BookSlotService,public dialog:MatDialog ){}
-  displayedColumns: string[]=['s.no','empid','department','floor','roomno','date','from','to','empname','action'];
-  dataSource=[];
+export class BookingreportComponent implements OnInit {
+  book: string = "";
+  constructor(private bookService: BookSlotService, public dialog: MatDialog) { }
+  displayedColumns: string[] = ['id', 'employeeId', 'department', 'floor', 'roomno','seatNo', 'date', 'fromTime', 'toTime ', 'employeeName', 'action'];
+  dataSource = [];
 
   ngOnInit(): void {
-      this.getAllRegister();
+    this.getAllBookRegister();
   }
 
-  getAllRegister(){
+  getAllBookRegister() {
     this.bookService.getAllRegister()
-    .subscribe(data=>{
-      console.log(data)
-      this.dataSource=data;
-    })
+      .subscribe(data => {
+        console.log(data)
+        this.dataSource = data;
+      })
   }
 
-  updateBook(bookData:any,type:string){
-    console.log(bookData,type);
-    this.dialog.open(BookslotComponent,{
-      data:{
-        type:"Edit",
-        value:bookData
+  EditBook(bookData: any, type: string) {
+    console.log(bookData, type);
+    this.dialog.open(BookingreportComponent, {
+      data: {
+        type: "Edit",
+        value: bookData
       },
     })
   }
 
-  deleteBookById(id:any){
+  DeleteBook(id: any) {
     this.bookService.deleteBookById(id)
-    .subscribe(response=>{
-      console.log(response)
-    },
-    err=>{
-      console.log(err)
-    })
+      .subscribe(response => {
+        console.log(response)
+      },
+        err => {
+          console.log(err)
+        })
   }
 
-  openDialog(){
-    this.dialog.open(BookslotComponent,{
-      data:{
-        type:"Add",
-        value:{}
-      }
-    })
-  }
-  
+  // openDialog() {
+  //   this.dialog.open(BookslotComponent, {
+  //     data: {
+  //       type: "Add",
+  //       value: {}
+  //     }
+  //   })
+  // }
+
 }

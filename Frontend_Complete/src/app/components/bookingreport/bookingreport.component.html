@@ -13,6 +13,7 @@
                         <th>Department</th>
                         <th>Floor</th>
                         <th>Room No</th>
+                        <th>Seats</th>
                         <th>Date</th>
                         <th>From</th>
                         <th>To</th>
@@ -20,62 +21,21 @@
                         <th>Action</th>
                    </tr>
                 </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>101</td>
-                    <td>Haliburton</td>
-                    <td>2</td>
-                    <td>Room-1</td>
-                    <td>11-05-2023</td>
-                    <td>10:00 am</td>
-                    <td>11:00 am</td>
-                    <td>Krishnan</td>
-                    <td><a href="/bookingreport">delete</a></td>
-                   </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>2</td>
-                    <td>102</td>
-                    <td>Glamz</td>
-                    <td>2</td>
-                    <td>Room-2</td>
-                    <td>12-05-2023</td>
-                    <td>02:00 pm</td>
-                    <td>03:00 pm</td>
-                    <td>Karthick</td>
-                    <td><a href="/bookingreport">delete</a></td>
-                   </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>3</td>
-                    <td>103</td>
-                    <td>Service Now</td>
-                    <td>3</td>
-                    <td>Room-3</td>
-                    <td>13-05-2023</td>
-                    <td>12:00 pm</td>
-                    <td>01:00 pm</td>
-                    <td>Kavin</td>
-                    <td><a href="/bookingreport">delete</a></td>
-                   </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>4</td>
-                    <td>104</td>
-                    <td>Trinet</td>
-                    <td>3</td>
-                    <td>Room-4</td>
-                    <td>14-05-2023</td>
-                    <td>04:00 pm</td>
-                    <td>05:00 pm</td>
-                    <td>Pavatharani</td>
-                    <td><a href="/bookingreport">delete</a></td>
-                   </tr>
-            </tbody>
+                <tbody>
+                    <tr *ngFor="let item in data">
+                        <!-- <td>{{$index + 1}}</td> -->
+                        <td>{{item.employeeId}}</td>
+                        <td>{{item.department}}</td>
+                        <td>{{item.floor}}</td>
+                        <td>{{item.roomno}}</td>
+                        <td>{{item.seatNo}}</td>
+                        <td>{{item.dateTime}}</td>
+                        <td>{{item.fromTime}}</td>
+                        <td>{{item.toTime}}</td>
+                        <td>{{item.employeeName}}</td>
+                        <td><button mat-icon-button color="primary"(click)="EditBook(item, 'Edit')" >edit</button></td>
+                        <td><button mat-icon-button color="primary" (click)="DeleteBook(item.id)">delete</button></td>
+                </tbody>
               
             </table>
         </div>

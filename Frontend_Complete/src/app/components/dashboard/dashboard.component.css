@@ -117,7 +117,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 40px 80px;
+  padding: 30px 0px;
 }
 
 .achievements .work {
@@ -219,4 +219,10 @@ body {
   text-decoration: none;
   color: #a1a1a1;
   padding: 10px 20px;
+}
+
+.contact
+{
+  font-size: 25px;
+  color:#b3bc7f;
 }

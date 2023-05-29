@@ -6,34 +6,34 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BookSlotService {
-  // private url:string="";
-  private baseUrl: string ='https://localhost:7018/api/bookslotregister/';
+  private url:string="";
+  private baseUrl: string ='https://localhost:7018/api/bookslotregister';
 
   constructor(private http: HttpClient) { }
   
   getAllRegister():Observable<any>{
-    // this.url=this.baseUrl+"/book/GetBook";
-    return this.http.get(this.baseUrl);
+    this.url=this.baseUrl+"/GetAllRegister";
+    return this.http.get(this.url);
   }
 
-  CreateBookSlotRegister(registerObj:any):Observable<any>{
-    // this.url=this.baseUrl+"/book/CreateBook";
-    return this.http.post(this.baseUrl,registerObj);
+  addBook(registerObj:any):Observable<any>{
+    this.url=this.baseUrl+"/CreateBookSlot";
+    return this.http.post(this.url,registerObj);
   }
   
   updateBook(registerObj:any):Observable<any>{
-    // this.url=this.baseUrl+"/book/UpdateBook";
-    return this.http.post(this.baseUrl,registerObj);
+    this.url=this.baseUrl+"/UpdateBooking";
+    return this.http.put(this.url,registerObj);
   }
 
   getBookById(id:any):Observable<any>{
-    // this.url=this.baseUrl+"/Book/GetBookById?id="+id;
-    return this.http.get(this.baseUrl);
+    this.url=this.baseUrl+"/Book/GetBookById?id="+id;
+    return this.http.get(this.url);
   }
 
   deleteBookById(id:any): Observable<any> {
-    // this.url=this.baseUrl+"Book/DeleteBook?id="+id;
-    return this.http.delete(this.baseUrl);
+    this.url=this.baseUrl+"Book/DeleteBook?id="+id;
+    return this.http.delete(this.url);
   }
 
 }
