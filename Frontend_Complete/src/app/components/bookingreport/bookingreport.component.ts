@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { BookSlotService } from 'src/app/services/book-slot.service';
 import { BookslotComponent } from '../bookslot/bookslot.component';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { BookSlotRegister } from 'src/app/models/book-slot.model';
 
 @Component({
   selector: 'app-bookingreport',
@@ -9,10 +11,25 @@ import { BookslotComponent } from '../bookslot/bookslot.component';
   styleUrls: ['./bookingreport.component.css']
 })
 export class BookingreportComponent implements OnInit {
-  book: string = "";
-  constructor(private bookService: BookSlotService, public dialog: MatDialog) { }
+  bookArray:BookSlotRegister[]= [];
+  bookFormGroup: FormGroup|undefined;
+  constructor(private bookService: BookSlotService, public dialog: MatDialog,private fb:FormBuilder) {
+    this.bookFormGroup=this.fb.group({
+      id:[""], 
+      employeeId:[""],
+       department:[""],
+        floor:[""],
+         roomno:[""],
+         seats:[""],
+          date:[""],
+          startTime:[""],
+            toTime :[""], 
+            employeeName:[""],
+             action:[""]
+    })  }
   displayedColumns: string[] = ['id', 'employeeId', 'department', 'floor', 'roomno','seatNo', 'date', 'fromTime', 'toTime ', 'employeeName', 'action'];
   dataSource = [];
+  
 
   ngOnInit(): void {
     this.getAllBookRegister();
@@ -22,7 +39,8 @@ export class BookingreportComponent implements OnInit {
     this.bookService.getAllRegister()
       .subscribe(data => {
         console.log(data)
-        this.dataSource = data;
+        // this.dataSource = data;
+        this.bookArray=data;
       })
   }
 

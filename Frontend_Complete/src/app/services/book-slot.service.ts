@@ -12,17 +12,17 @@ export class BookSlotService {
   constructor(private http: HttpClient) { }
   
   getAllRegister():Observable<any>{
-    this.url=this.baseUrl+"/GetAllRegister";
+    this.url=this.baseUrl+"/";
     return this.http.get(this.url);
   }
 
   addBook(registerObj:any):Observable<any>{
-    this.url=this.baseUrl+"/CreateBookSlot";
+    this.url=this.baseUrl+"/bookSlot";
     return this.http.post(this.url,registerObj);
   }
   
-  updateBook(registerObj:any):Observable<any>{
-    this.url=this.baseUrl+"/UpdateBooking";
+  updateBook(registerObj:any,id:any):Observable<any>{
+    this.url=this.baseUrl+"/"+id;
     return this.http.put(this.url,registerObj);
   }
 

@@ -18,23 +18,27 @@
                         <th>From</th>
                         <th>To</th>
                         <th>Booked by</th>
-                        <th>Action</th>
+                        <th style="text-align: center;">Action</th>
                    </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let item in data">
+                    <tr *ngFor="let item of bookArray">
                         <!-- <td>{{$index + 1}}</td> -->
+                        <td>{{item.id}}</td>
                         <td>{{item.employeeId}}</td>
                         <td>{{item.department}}</td>
                         <td>{{item.floor}}</td>
-                        <td>{{item.roomno}}</td>
-                        <td>{{item.seatNo}}</td>
+                        <td>{{item.roomNumber}}</td>
+                        <td>{{item.seats}}</td>
                         <td>{{item.dateTime}}</td>
-                        <td>{{item.fromTime}}</td>
-                        <td>{{item.toTime}}</td>
+                        <td>{{item.startTime}}</td>
+                        <td>{{item.endTime}}</td>
                         <td>{{item.employeeName}}</td>
-                        <td><button mat-icon-button color="primary"(click)="EditBook(item, 'Edit')" >edit</button></td>
-                        <td><button mat-icon-button color="primary" (click)="DeleteBook(item.id)">delete</button></td>
+                        <td><button class="btn btn-primary" (click)="EditBook(item, 'Edit')" style="margin-right: 5px;margin-top:0px;border-color:#9e5aa3; background:#9e5aa3;border-radius:3px">Edit</button>
+                            <button class="btn btn-primary" (click)="DeleteBook(item.id)" style="margin-right: 5px;margin-top:0px; border-color:#9e5aa3;   background:#9e5aa3;border-radius:3px
+                            ">Delete</button></td>
+                       
+                        </tr>
                 </tbody>
               
             </table>

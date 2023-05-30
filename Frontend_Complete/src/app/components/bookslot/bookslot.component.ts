@@ -40,8 +40,8 @@ roomNumber:any=['Room-1','Room-2','Room-3','Room-4']
     console.log(this.data);
     this.initFormBuilder();
 
-    this.floor = this.Selectservice.getFloor();
-    console.log(this.floor);
+    // this.floor = this.Selectservice.getFloor();
+    // console.log(this.floor);
     
     // if(this.data.type=="Edit"){
     //   this.bookSlotForm.patchValue(this.data.value);
@@ -58,16 +58,16 @@ roomNumber:any=['Room-1','Room-2','Room-3','Room-4']
       department: ['', Validators.required],
       floor: ['', Validators.required],
       roomNo: ['', Validators.required],
-      seatNo: ['', Validators.required],
+      seats: ['', Validators.required],
       date: [new Date(), Validators.required],
       fromTime: ['', Validators.required],
       toTime: ['', Validators.required],
     });
     
   }
-  onSelect(floor: any) {
-    this.room = this.Selectservice.getRoom().filter(e => e.id == floor.target.value);
-  }
+  // onSelect(floor: any) {
+  //   this.room = this.Selectservice.getRoom().filter(e => e.id == floor.target.value);
+  // }
 
 
 

@@ -69,31 +69,29 @@
 
 
                             <div class="form-group pt-3">
-                                <label for="seatNo"  class="form-label">Needed Seat:</label>
-                                <select class="form-select" formControlName="seatNo" >
+                                <label for="seats"  class="form-label">Needed Seat:</label>
+                                <select class="form-select" formControlName="seats" >
                                     <option value="" disabled selected>--Select--</option>
                                     <option *ngFor="let seat of seatNumber">{{seat}}</option>  
                                 </select>
                             </div>
                             <div class="form-group pt-3">
                                 <label for="date" class="form-label">Date:</label>
-                                <input type="datetime-local" name="input" ng-model="value"
+                                <input type="date" class="form-control" name="input" ng-model="value"
                                 placeholder="yyyy-MM-ddTHH:mm:ss" min="2010-01-01T00:00:00" max="2025-12-31T00:00:00" required />                        
                                     </div>
 
-                            <div class="form-group pt-3">
-                                <label for="fromTime" class="form-label">fromTime</label>
-                                <div class="input-field">
-                                    <input formControlName="fromTime" type="text" placeholder="fromTime">
-                                </div>
-                            </div>
+                            
 
                             <div class="form-group pt-3">
-                                <label for="toTime" class="form-label">toTime</label>
-                                <div class="input-field">
-                                    <input formControlName="toTime" type="text" placeholder="toTime">
+                                <label for="fromTime" class="form-label">From Time</label>
+                                    <input formControlName="fromTime"  class="form-control" type="time" placeholder="fromTime">
                                 </div>
-                            </div>
+
+                            <div class="form-group pt-3">
+                                <label for="toTime" class="form-label">To Time</label>
+                                    <input formControlName="toTime" class="form-control" type="time" placeholder="toTime">
+                                </div>
 
 
                             
